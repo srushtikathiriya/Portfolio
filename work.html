@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            background-image: url('https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=600');
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px; /* space between cards */
+            flex-wrap: wrap;
+        }
+
+        .card {
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            background-color: #fff;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .card img {
+            height: 200px;
+            width: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <img src="./asset/crudapp.png" alt="">
+            <h3>
+                <span>Frontend Project</span><br>
+                <span>(CrudApp)</span>
+            </h3>
+        </div>
+        <div class="card">
+            <img src="./asset/Ninico.png" alt="">
+            <h3>
+                <span>Frontend Project</span><br>
+                <span>(Ecommerce Website)</span>
+            </h3>
+        </div>
+        <div class="card">
+            <img src="./asset/Todo-List.png" alt="">
+            <h3>
+                <span>Backend Project</span><br>
+                <span>(Todo-List)</span>
+            </h3>
+        </div>
+        <div class="card">
+            <img src="./asset/Fashion.png" alt="">
+            <h3>
+                <span>Backend Project</span><br>
+                <span>(Ecommerce Website)</span>
+            </h3>
+        </div>
+    </div>
+</body>
+</html>
