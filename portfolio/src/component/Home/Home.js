@@ -1,11 +1,11 @@
 import React from 'react';
-import Resume from "../asset/srushti_kathiriya_mern_stack.pdf";
+// import Resume from "../asset/srushti_kathiriya_mern_stack.pdf";
 
 function Home() {
-    const handleLinkClick = (event) => {
-        event.preventDefault();
-        window.open(event.target.href, '_blank', 'noopener,noreferrer');
-      };
+    // const handleLinkClick = (event) => {
+    //     event.preventDefault();
+    //     window.open(event.target.href, '_blank', 'noopener,noreferrer');
+    //   };
     return (
         <div className="relative flex justify-center items-center h-screen bg-gray-100">
             <section className="intro text-center p-6 bg-white rounded-lg shadow-lg max-w-md w-full">
@@ -13,7 +13,7 @@ function Home() {
                     Hi, I'm <span className="text-yellow-500">Srushti Kathiriya</span>
                 </h2>
                 <p className="text-lg text-gray-600 mb-5">IT Student | MERN Stack Developer</p>
-                <div>
+                {/* <div>
                     <a
                         href={Resume}
                         target="_blank"
@@ -23,7 +23,7 @@ function Home() {
                         role="button">
                         Download CV
                     </a>
-                </div>
+                </div> */}
             </section>
         </div>
     );
